@@ -4307,6 +4307,8 @@ nav i.material-icons {
 nav .nav-wrapper {
   position: relative;
   height: 100%;
+  /* background: rgb(50,223,207);
+  background: linear-gradient(180deg, rgba(50,223,207,1) 0%, rgba(77,182,172,1) 44%, rgba(49,233,215,1) 100%); */
 }
 
 @media only screen and (min-width: 993px) {

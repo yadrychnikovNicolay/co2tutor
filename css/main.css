@@ -17,6 +17,35 @@ html {
   line-height: 1.4;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+p, li, label, input, button, a {
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+.limited-img-200 {
+  max-width: 200px !important;
+}
+
+.limited-img-300 {
+  max-width: 300px !important;
+}
+
+.limited-img-400 {
+  max-width: 400px !important;
+}
+
+.responsive-img-custom {
+  width: 65%;
+}
+
 #scroll-button {
   width: 40px;
   line-height: 40px;
@@ -80,11 +109,35 @@ html {
   background-image: url("../img/scene1.jpg");
 }
 
-#section-pics {
+#section-intro {
+
+}
+
+#section-intro img {
+  /* width: 200px; */
 }
 
 #section-team {
-  background-color: rgb(248, 248, 248);
+  /* background-color: rgba(77, 182, 172, 100);
+  color: white; */
+}
+
+
+#section-team img {
+  width: 200px;
+  border-radius: 50%;
+  /* border: 2px solid #4db6ac; */
+  border: 2px solid #FFF;
+
+}
+
+#section-team .team-member {
+  margin: auto;
+  /* width: 300px; */
+}
+
+#section-team .team-member ul li{
+  margin: 5px 0;
 }
 
 #section-contact {

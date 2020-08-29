@@ -31,7 +31,7 @@
           <li><a href="#section-intro">The project</a></li>
           <li><a href="#section-work">Our work</a></li>
           <li><a href="#section-team">The Team</a></li>
-          <li><a href="#section-contact">Contact</a></li>
+          <li><a href="#section-contact">Interested?</a></li>
         </ul>
       </div>
     </div>
@@ -223,12 +223,23 @@
     </div>
   </div>
   <div class="section teal lighten-5" id="section-contact">
+
+    <?php
+
+      echo "hello world";
+      if(array_key_exists('send_message', $_POST)) {
+        echo "send message";
+      }
+
+    ?>
+
     <div class="container">
-      <h2>Contact</h2>
+      <h2>Contact us</h2>
+      <p>Drop us a line for all information on our devices, components, philosophy and prices</p>
       <div class="row">
         <div class="col m10 offset-m1 s12">
           <div class="row">
-            <form class="col s12">
+            <form class="col s12" method="post">
               <div class="row">
                 <div class="input-field col m6 s12">
                   <input id="first_name" type="text" class="validate">
@@ -258,7 +269,7 @@
               <div class="row">
                 <div class="col m12">
                   <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button"
-                      name="action">Send Message</button></p>
+                      name="send_message">Send Message</button></p>
                 </div>
               </div>
             </form>
